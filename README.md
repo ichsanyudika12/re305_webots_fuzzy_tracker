@@ -19,14 +19,10 @@ The controller calculates the robot’s speed and turning in real time.
        git clone https://github.com/ichsanyudika12/re305-webots-fuzzy-tracker.git
        cd fuzzy_epuck_fuzzy_following
 
-2. **Open Webots**
-
-       webots
-
-3. **Open the world file**
+2. **Open the world file**
 
        worlds/epuck.wbt
 
-4. **Set the e-puck robot controller**
+3. **Set the e-puck robot controller**
 
-       Set the controller to: tracking.py
+       tracking.py
