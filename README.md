@@ -16,8 +16,8 @@ The controller calculates the robot’s speed and turning in real time.
 
 1. **Clone Repository**
 
-       git clone https://github.com/ichsanyudika12/re305-webots-fuzzy-tracker.git
-       cd re305-webots-fuzzy-tracker
+       git clone https://github.com/ichsanyudika12/re305_webots_fuzzy_tracker.git
+       cd re305_webots_fuzzy_tracker
 
 2. **Open the world file**
 
