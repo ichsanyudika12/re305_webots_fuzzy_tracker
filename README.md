@@ -29,4 +29,4 @@ The controller calculates the robot’s speed and turning in real time.
 
 ## Demo
 
-Watch the demo video here: [Demo Video](https://youtu.be/bSC8jE7lHFQ?si=Cgx7Ry4wmHfkxuft)
+[Demo Video](https://youtu.be/bSC8jE7lHFQ?si=Cgx7Ry4wmHfkxuft)
