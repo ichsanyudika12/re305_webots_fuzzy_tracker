@@ -1,0 +1,92 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/kitchen/breakfast/protos/HoneyJar.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/Parquetry.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5773503380153489 0.5773501315387392 0.5773503380147649 2.0944002064766343
+  position -0.7971794339811985 0.02818510202225936 3.440409332247855
+  follow "rectangle arena"
+  followType "None"
+}
+TexturedBackground {
+  texture "mars"
+}
+TexturedBackgroundLight {
+  castShadows FALSE
+}
+RectangleArena {
+  translation 0.0177629 0.029979 2.9976e-14
+  rotation 0 0 1 3.57628e-07
+  floorTileSize 0 0
+  floorAppearance Parquetry {
+    type "chequered"
+    colorOverride 0 0 0
+  }
+}
+E-puck {
+  translation 0.0148878 0.434086 -7.9e-05
+  rotation -0.00040037896527933287 -0.00011461099006099125 0.9999999132804989 -1.536805307179586
+  controller "tracking"
+  controllerArgs [
+    ""
+  ]
+  camera_width 1280
+  camera_height 720
+}
+HoneyJar {
+  translation 0.019755 -0.382697 -0.0012848
+  rotation -4.0491336532443817e-16 6.143954721613692e-14 -1 0.155926832825934
+  mass 2
+}
+WoodenBox {
+  translation -0.0678698 -0.014045 0.0480383
+  rotation -4.389126872936187e-15 -1.3807422515131851e-15 1 0.008765228088892215
+  name "wooden box(2)"
+  size 0.1 0.1 0.1
+  mass 5
+}
+WoodenBox {
+  translation 0.112936 0.0329057 0.0480383
+  rotation -4.2972051589473735e-15 7.258325250363695e-15 1 0.008735307179585795
+  name "wooden box(3)"
+  size 0.1 0.1 0.1
+  mass 5
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 0.5
+  location -0.1 0.4 1
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 0.5
+  location 0.6 0.4 1
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 0.5
+  location -0.1 -0.3 1
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 0.5
+  location 0.6 -0.3 1
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 0.5
+  location 0.8 0.1 1
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 0.5
+  location -0.3 0.1 1
+}
